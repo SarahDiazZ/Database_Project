@@ -69,8 +69,11 @@ The `Prescribes` table stores information about each medication that has been pr
 * **PrescribedDate:** A unique identifier for each date a medication was prescribed (Primary Key).
 * **Dose:** The dose of a medication.
 
+### Room Table
+The `Room` table stores information about each room. It includes the following columns:
+* **RoomID:** A unique identifier for each room (Primary Key).
+* **RoomType:** The type of room (e.g., 'Single', 'Double').
 
-* **Room Table:**
 * **Stay Table:**
 * **Undergoes Table:**
 * **OnCall Table:**
