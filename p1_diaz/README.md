@@ -14,7 +14,8 @@ This phase focuses on creating the database schema and inserting initial data.
 In Phase 1, I created the database schema and inserted initial data. This sets the foundation for the subsequent phases of the project
 
 ### Database Schema
-* ### Physician Table: Holds the Physician ID, name, position, and social security number of a Physician. The primary key of this
+* ###### Physician Table: 
+    Holds the Physician ID, name, position, and social security number of a Physician. The primary key of this
     this table is the Physician ID.
 
 * <h6>Department Table:</h6>
