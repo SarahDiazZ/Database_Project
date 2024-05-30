@@ -1,8 +1,8 @@
-<h1>Phase 1: Database Creation and Data Insertion</h1>
+# Phase 1: Database Creation and Data Insertion
 
-<p>This phase focuses on creating the database schema and inserting initial data.</p>
+This phase focuses on creating the database schema and inserting initial data.
 
-<h3>Table of Contents</h3>
+### Table of Contents
 1. Introduction (link)
 2. Database Schema (link)
 3. Data Insertion (link)
@@ -10,13 +10,12 @@
 5. Setup and Installation (link)
 6. Usage (link)
 
-<h3>Introduction</h3>
-<p>In Phase 1, I created the database schema and inserted initial data. This sets the foundation for the subsequent phases of the project</p>
+### Introduction
+In Phase 1, I created the database schema and inserted initial data. This sets the foundation for the subsequent phases of the project
 
-<h3>Database Schema</h3>
-* <h6>Physician Table:</h6> <p>Holds the Physician ID, name, position, and social security number of a Physician. The primary key of this
+### Database Schema
+* ### Physician Table: Holds the Physician ID, name, position, and social security number of a Physician. The primary key of this
     this table is the Physician ID.
-</p>
 
 * <h6>Department Table:</h6>
 * <h6>AffiliatedWith Table:</h6>
