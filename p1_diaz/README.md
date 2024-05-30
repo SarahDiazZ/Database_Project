@@ -4,7 +4,7 @@ This phase focuses on creating the database schema and inserting initial data.
 
 ### Table of Contents
 1. Introduction (link)
-2. Database Schema (link)
+2. ([Database Schema](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#database-schema))
 3. Data Insertion (link)
 4. Files (link)
 5. Setup and Installation (link)
@@ -17,7 +17,7 @@ In Phase 1, I created the database schema and inserted initial data. This sets t
 * **Physician Table:** Holds the Physician ID, name, position, and social security number of a Physician. The primary key of this this table is the Physician ID.
 
 * **Department Table:** Holds the Department ID, name such as 'General Medicine, ' 'Surgery, ' and 'Psychiatry.' Also consists of the Department Head ID. The primary key is the Department ID and to foreign key is head ID which references the Physician ID in the Physician Table. 
- 
+
 * **AffiliatedWith Table:**
 * **Procedure Table:**
 * **Patient Table:**
