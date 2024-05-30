@@ -32,8 +32,23 @@ The `AffiliatedWith` table stores information about what department each physici
 * **PhysicianID:** A unique identifier for each physician (Primary and Foreign key referecing `PhysicianID` in the `Physician` table).
 * **DepartmentID:** A unique identifier for each department (Primary and Foreign key referencing `DepartmentID` in the `Department` table).
 
-* **Procedure Table:**
-* **Patient Table:**
+### Procedure Table
+The `Procedure` table stores information about each procedure. It includes the following columns:
+* **ProcedureID:** A unique identifier for each procedure (Primary Key).
+* **Name:** The name of each procedure.
+* **Cost:** The cost of each procedure. 
+
+### Patient Table
+The `Patient` table stores information about each patient. It includes the following columns:
+* **PatientID:** A unique identifier for each patient (Primary Key).
+* **SSN:** The social security number of the patient.
+* **Name:** The name of the patient.
+* **Address:** The home address of the patient.
+* **DOB:** The date of birth of the patient.
+* **Phone:** The phone number of the patient.
+* **InsuranceNumber:** The insurance number of the patient.
+* **PrimaryPhysicianID:** The `PhysicianID` of their primary care physician (Foreign key referencing `PhysicianID` in the `Physician` table). 
+
 * **Nurse Table:**
 * **Medication Table:**
 * **Prescribes Table:**
