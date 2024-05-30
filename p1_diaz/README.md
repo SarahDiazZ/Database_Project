@@ -21,7 +21,11 @@ The **'Physician'** table stores information about each physician. It includes t
 * **Position:** The position or job title of the physician (e.g., 'Intern', 'Surgeon', 'Senior', 'Chief of Medicine', 'Resident', 'Psychiatrist').
 * **SSN:** The social security number of the physician.
 
-* **Department Table:** Holds the Department ID, name such as 'General Medicine, ' 'Surgery, ' and 'Psychiatry.' Also consists of the Department Head ID. The primary key is the Department ID and to foreign key is head ID which references the Physician ID in the Physician Table. 
+### Department Table
+The **'Department'** table stores information about each department. It includes the following columns:
+* **DepartmentID:** A unique identifier for each department (Primary Key).
+* **Name:** The name of each department (e.g., 'General Medicine', 'Surgery', 'Psychiatry').
+* **HeadID:** The ID of the physician who is the head of the department (Foreign key referencing `**PhysicianID**` in the `**Physician**` table)
 
 * **AffiliatedWith Table:**
 * **Procedure Table:**
