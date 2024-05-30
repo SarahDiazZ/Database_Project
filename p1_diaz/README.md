@@ -25,7 +25,7 @@ The **'Physician'** table stores information about each physician. It includes t
 The **'Department'** table stores information about each department. It includes the following columns:
 * **DepartmentID:** A unique identifier for each department (Primary Key).
 * **Name:** The name of each department (e.g., 'General Medicine', 'Surgery', 'Psychiatry').
-* **HeadID:** The ID of the physician who is the head of the department (Foreign key referencing `**PhysicianID**` in the `**Physician**` table)
+* **HeadID:** The ID of the physician who is the head of the department (Foreign key referencing `PhysicianID` in the `Physician` table)
 
 * **AffiliatedWith Table:**
 * **Procedure Table:**
