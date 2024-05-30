@@ -49,9 +49,27 @@ The `Patient` table stores information about each patient. It includes the follo
 * **InsuranceNumber:** The insurance number of the patient.
 * **PrimaryPhysicianID:** The `PhysicianID` of their primary care physician (Foreign key referencing `PhysicianID` in the `Physician` table). 
 
-* **Nurse Table:**
-* **Medication Table:**
-* **Prescribes Table:**
+### Nurse Table
+The `Nurse` table stores information about each nurse. It includes the following columns:
+* **NurseID:** A unique idenfitier for each nurse (Primary Key).
+* **Name:** The name of the nurse.
+* **Position:** The position or job title of the nurse (e.g., 'Head Nurse', 'Nurse').
+* **SSN:** The social security number of the nurse.
+
+### Medication Table
+The `Medication` table stores information about each mediciation. It includes the following columns:
+* **MedicationID:** A unique identifier for each medication (Primary Key).
+* **Name:** The name of the medication.
+
+### Prescribes Table
+The `Prescribes` table stores information about each medication that has been prescribed. It includes the following columns:
+* **PhysicianID:** A unique identifier for each physician (Primary and Foreign key referencing `PhysicianID` in the `Physician` table).
+* **PatientID:** A unique identifier for each patient (Primary and Foregin key referecing `PatientID` in the `Patient` table).
+* **MedicationID:** A unique identifier for each medication (Primary and Foreign key referencing `MedicationID` in the `Medication` table).
+* **PrescribedDate:** A unique identifier for each date a medication was prescribed (Primary Key).
+* **Dose:** The dose of a medication.
+
+
 * **Room Table:**
 * **Stay Table:**
 * **Undergoes Table:**
