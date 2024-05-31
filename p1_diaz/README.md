@@ -5,10 +5,10 @@ This phase focuses on creating the database schema and inserting initial data.
 ## Table of Contents
 1. [Introduction](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#introduction)
 2. [Database Schema](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#database-schema)
-3. Data Insertion (link)
-4. Files (link)
-5. Setup and Installation (link)
-6. Usage (link)
+3. [Data Insertion](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#data-insertion)
+4. [Files](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#files)
+5. [Setup and Installation](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#setup-and-installation)
+6. [Usage](https://github.com/SarahDiazZ/Database_Project/tree/main/p1_diaz#usage)
 
 ## Introduction
 In Phase 1, I created the database schema and inserted initial data. This sets the foundation for the subsequent phases of the project
