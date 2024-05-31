@@ -74,7 +74,31 @@ The `Room` table stores information about each room. It includes the following c
 * **RoomID:** A unique identifier for each room (Primary Key).
 * **RoomType:** The type of room (e.g., 'Single', 'Double').
 
-* **Stay Table:**
-* **Undergoes Table:**
-* **OnCall Table:**
-* **Appointment Table:**
+### Stay Table
+The `Stay` table stores information about each stay. It includes the following columns:
+* **StayID:** A unique identifier for each stay (Primary Key).
+* **PatientID:** The ID of the patient (Foreign key referencing `PatientID` in the `Patient` table).
+* **RoomID:** The ID of the room (Foreign key referecing `RoomID` in the `Room` table).
+* **StartDate:** The start date of a stay.
+* **EndDate:** The end date of a stay.
+
+### Undergoes Table
+The `Undergoes` table stores information about each procedure a patient undergoes. It includes the following columns:
+* **PatientID:** A unique identifier for each patient (Primary and Foreign key referencing `PatientID` in the `Patient` table).
+* **ProcedureID:** A unique identifier for each procedure (Primary and Foreign key referencing `ProcedureID` in the `Procedure` table).
+* **StayID:** A unique identifier for each stay (Primary and Foreign key )
+
+### OnCall Table
+The `OnCall` table stores information about the nurses that are OnCall. It includes the following columns:
+* **NurseID:** A unique identifier for each nurse (Primary and Foreign key referencing `NurseID` in the `Nurse` table).
+* **StartDate:** A unique identfier for the start date of on call for each nurse (Primary Key).
+* **EndDate:** A unique identifier for the end date of on call for each nurse (Primary Key).
+
+### Appointment Table
+The `Appointment` table stores information about each appointment a patient has. It includes the following columns:
+* **AppointmentID:** A unique identifier for each appointment made (Primary Key).
+* **PatientID:** The ID of the patient (Foreign key referencing `PatientID` in the `Patient` table).
+* **NurseID:** The ID of the nurse (Foreign key referencing `NurseID` in the `Nurse` table).
+* **PhysicianID:** The ID of the physician (Foreign key referencing `PhysicianID` in the `Nurse` table).
+* **StartDateTime:** The start date and time of the appointment.
+* **EndDateTime:** The end date and time of the appointment.
