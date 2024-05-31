@@ -102,3 +102,32 @@ The `Appointment` table stores information about each appointment a patient has.
 * **PhysicianID:** The ID of the physician (Foreign Key referencing `PhysicianID` in the `Nurse` table).
 * **StartDateTime:** The start date and time of the appointment.
 * **EndDateTime:** The end date and time of the appointment.
+
+## Data Insertion
+Data insertion scripts are provided to populate the database with initial data.
+
+## Files
+* `create_db.sql`: Script to create the database schema.
+* `insert_db.sql`: Script to insert initial data into the database.
+
+## Setup and Installation
+To set up and run the scripts for this phase, follow these steps:
+
+1. Ensure you have the necessary database software installed (e.g., MySQL). To view the data and write queries I used MySQLWorkbench.
+    * Download **MySQL Workbench** for **MAC** [Download](https://dev.mysql.com/downloads/workbench/)
+    * Download **MySQL Workbench** for **Windows** [Download](https://dev.mysql.com/downloads/workbench/)
+    * Download **MySQL** for **Windows** [DownloadMySQL](https://dev.mysql.com/downloads/installer/)
+    * Download **MySQL** for **MAC** [DownloadMySQL](https://dev.mysql.com/downloads/mysql/)
+2. Clone the repository:
+```git clone https://github.com/SarahDiazZ/Database_Project.git```
+3. Navigate to the Phase 1 directory:
+```cd Database_Project/Phase1```
+4. Create the database schema in MySQL Workbench:
+    1. Open the MySQL Workbench
+    2. Click the `Create Schema` option
+    3. Provide a schema name
+    4. Click `apply` to create the MySQL scheme
+5. Run the data insertion script:
+    1. Open the `File` tab
+    2. Click on `Open SQL Script`
+    3. Click on the lightning bolt to execute the script
