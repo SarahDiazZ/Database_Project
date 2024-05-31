@@ -131,3 +131,6 @@ To set up and run the scripts for this phase, follow these steps:
     1. Open the `File` tab
     2. Click on `Open SQL Script`
     3. Click on the lightning bolt to execute the script
+
+## Usage
+After setting up the database, you can connect to it and verify that the tables and data have been correctly created inserted. Use your database client or command line interface to run queries and check the data.
